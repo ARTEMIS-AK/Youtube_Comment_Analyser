@@ -18,7 +18,7 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from nltk.tokenize import sent_tokenize
 
 # Set up the YouTube Data API key
-api_key = "AIzaSyDa2RQoBe54oBFFBJ3dATV-dYNO7zlINis"  # Replace with your own API key
+api_key = ""  # Replace with your own API key
 
 # Create a YouTube Data API client
 youtube = build("youtube", "v3", developerKey=api_key)
